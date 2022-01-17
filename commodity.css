@@ -337,6 +337,13 @@ a.ham-icon {
     display: none;
 }
 
+.Footer_txt {
+    color: #642A02;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
 .btn {
     border: none;
     border-radius: 4px;

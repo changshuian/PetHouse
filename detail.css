@@ -60,7 +60,6 @@ a {
     text-decoration: none;
     display: block;
     color: #642A02;
-    font-weight: bold;
     position: relative;
 }
 
@@ -256,6 +255,13 @@ a {
     width: 30px;
     height: 30px;
     margin-left: 10px;
+}
+
+.Footer_txt {
+    color: #642A02;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
 }
 
 a.ham-icon {
@@ -547,6 +553,6 @@ a.ham-icon {
 
 input[type="button"],
 button[type="submit"],
-div[onclick]{
+div[onclick] {
     cursor: pointer;
 }

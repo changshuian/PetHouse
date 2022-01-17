@@ -313,6 +313,13 @@ a {
     margin-left: 10px;
 }
 
+.Footer_txt {
+    color: #642A02;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
 .Cut {
     overflow: hidden;
     display: flex;
