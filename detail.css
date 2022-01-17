@@ -403,7 +403,6 @@ a.ham-icon {
     }
     .small_picture img {
         width: 40%;
-        margin: 10px;
     }
     .container_title {
         font-size: 40px;
@@ -488,7 +487,7 @@ a.ham-icon {
 }
 
 .img_black h3 {
-    font-size: 20px;
+    font-size: 1.1em;
     text-align: center;
     margin-top: 10px;
     color: #fff;
