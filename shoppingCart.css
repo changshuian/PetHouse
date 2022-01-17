@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Head_User a {
+    color: #642A02;
+}
+
+.width_css {
+    max-width: 1200px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: auto;
+}
+
+.Head_diV_box_fixed {
+    width: 100%;
+    min-height: 90px;
+    position: absolute;
+}
+
+.Head_diV_box {
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.Head_div {
+    display: flex;
+    height: 90px;
+    font-size: 20px;
+}
+
+.Head_Logo {
+    max-width: 150px;
+    margin: auto;
+}
+
+.Head_Nav {
+    margin: auto;
+    /* text-align: center; */
+}
+
+.Head_Nav nav {
+    display: flex;
+}
+
+.Head_Nav a {
+    margin-right: 60px;
+    text-decoration: none;
+    display: block;
+    color: #642A02;
+    position: relative;
+}
+
+.dropdown a:hover .dropdown_border {
+    animation-name: oxxo;
+    animation-duration: 0.3s;
+    border-bottom: 3px solid #642A02;
+    position: absolute;
+    width: 100%;
+}
+
+@keyframes oxxo {
+    from {
+        top: -50%;
+    }
+    to {
+        top: 120%;
+    }
+}
+
+.Head_User {
+    max-width: 160px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Head_User div {
+    margin-right: 5px;
+    color: #642A02;
+}
+
+.ShoppingStyle {
+    width: 35px;
+}
+
+.Footer {
+    background-color: #eedbcd;
+    margin-top: 100px;
+}
+
+.Footer_Block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.Footer_Block_Img {
+    max-width: 150px;
+}
+
+.Footer_Block_Item span {
+    font-size: 20px;
+    color: #642A02;
+}
+
+.Footer_Block_Item p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #642A02;
+}
+
+.Footer_Group img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+/* 以下新增 */
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.img {
+    width: 100px;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.mr8 {
+    margin-right: 8px;
+}
+
+.contain {
+    max-width: 80%;
+    margin: 100px auto;
+}
+
+.box {
+    border: 1px solid #BEBEBE;
+    padding: 30px;
+    margin: 10px;
+    color: #642A02;
+    line-height: 1.5;
+}
+
+.box h3 {
+    font-size: 28px;
+}
+
+.box hr {
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    background: #BEBEBE;
+    height: 1px;
+}
+
+.box table {
+    width: 100%;
+}
+
+.box td {
+    padding: 8px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.box td:nth-child(1) {
+    text-align: left;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #642A02;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.box input[placeholder] {
+    border: 1px solid #888;
+    width: 80%;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.table-tar td:nth-child(2) {
+    text-align: right;
+}
+
+.quantity {
+    border: 1px solid #BEBEBE;
+    background: transparent;
+    padding: 10px;
+    width: 3em;
+}
+
+.input_reduce {
+    border-radius: 4px 0 0 4px;
+}
+
+.input_add {
+    border-radius: 0 4px 4px 0;
+}
+
+
+/* head & footer RWD */
+
+a {
+    text-decoration: none;
+    color: #642A02;
+}
+
+.none {
+    display: none;
+}
+
+a.ham-icon {
+    display: none;
+}
+
+@media (max-width:980px) {
+    .Head_Nav {
+        display: flex;
+        align-items: center;
+    }
+    a.ham-icon {
+        margin-left: 30px;
+        display: block;
+        position: absolute;
+        left: 13px;
+        color: #642A02;
+    }
+    .dropdown {
+        position: absolute;
+        top: 90px;
+        width: 100%;
+        left: 0;
+        max-height: 0px;
+        transition: all 0.8s;
+        overflow: hidden;
+        z-index: 120;
+        display: flex;
+        flex-direction: column;
+    }
+    .dropdown.active {
+        max-height: 300px;
+    }
+    .dropdown a {
+        display: block;
+        background: #eeeeee;
+        color: #642A02;
+        padding: 10px 10px;
+        width: 100%;
+        text-decoration: none;
+    }
+    .dropdown a:hover {
+        background: #eedbcd;
+    }
+    .dropdown a:hover .dropdown_border {
+        animation-name: oxxo;
+        animation-duration: 0.3s;
+        border-bottom: 3px solid transparent;
+        position: absolute;
+        width: 100%;
+    }
+    @keyframes oxxo {
+        from {
+            top: -50%;
+        }
+        to {
+            top: 120%;
+        }
+    }
+    .ms-none {
+        display: none;
+    }
+    .none {
+        display: block;
+    }
+    .cross {
+        position: absolute;
+        right: 10px;
+        top: 0;
+    }
+    .cartItems {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        line-height: 2;
+    }
+    .cartItems h3 {
+        font-size: 20px;
+    }
+    .cartItems form {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .d-flex {
+        display: block;
+    }
+    .box input[placeholder] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .ms-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+
+@media (max-width: 750px) {
+    .Footer_Block {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .Footer_Block>* {
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .Head_Logo {
+        margin-left: 40px;
+    }
+    a.ham-icon {
+        margin: auto;
+    }
+    .width_css {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Head_User {
+        display: block;
+        margin-top: 16px;
+        font-size: 18px;
+    }
+    .ShoppingStyle {
+        width: 24px;
+        margin: auto;
+    }
+}
+
+.mr4 {
+    margin-right: 4px;
+}
+
+@media (max-width: 500px) {
+    .Head_User {
+        display: flex;
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .Head_User span {
+        display: none;
+    }
+}
+
+input[type="submit"],
+input[type="button"],
+button[type="button"] {
+    cursor: pointer;
+}

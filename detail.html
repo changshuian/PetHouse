@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Reset.css">
+    <link rel="stylesheet" href="css/OwlCarousel2/owl.carousel.min.css"></link>
+    <link rel="stylesheet" href="css/OwlCarousel2/owl.theme.default.min.css"></link>
+    <link rel="stylesheet" href="detail.css">
+    <script src="https://kit.fontawesome.com/90d222f595.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/OwlCarousel2/owl.carousel.min.js"></script>
+</head>
+
+<body>
+    <div class="Head">
+        <div class="Head_diV_box_fixed"></div>
+        <div class="Head_diV_box">
+            <div class="Head_div width_css">
+                <div class="Head_Logo">
+                    <img class="LogoStyle" src="pic/logo.png" alt="logo">
+                </div>
+                <div class="Head_Nav">
+                    <a href="#" class="ham-icon">
+                        <i class="fas fa-bars "></i>
+                    </a>
+                    <nav class="dropdown">
+                        <a href="Index.html">首頁<p class="dropdown_border"></p></a>
+                        <a href="commodity.html">商品<p class="dropdown_border"></p></a>
+                        <a href="PetGrooming.html">寵物美容<p class="dropdown_border"></p></a>
+                        <a href="Shop.html">實體店面<p class="dropdown_border"></p></a>
+                    </nav>
+                </div>
+                <div class="Head_User">
+                    <div><a href="MemberSignIn.html"><i class="fas fa-user-circle mr4"></i><span>會員登入</span></a></div>
+                    <div class="ShoppingStyle">
+                        <a href="ShoppingCart.html"><img src="pic/icon-shopping-car.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container width_css">
+        <div class="container_left">
+            <div>
+                <div class="picture">
+                    <img src="pic/detail/Carousel_2.jpg" alt="">
+                </div>
+                <div class="owl-carousel owl-theme small_picture">
+                    <img src="pic/detail/Carousel_1.jpg" alt="" onclick="pic(0)">
+                    <img src="pic/detail/Carousel_2.jpg" alt="" onclick="pic(1)">
+                    <img src="pic/detail/Carousel_3.jpg" alt="" onclick="pic(2)">
+                    <img src="pic/detail/Carousel_4.jpg" alt="" onclick="pic(3)">
+                    <img src="pic/detail/Carousel_5.jpg" alt="" onclick="pic(4)">
+                    <img src="pic/detail/Carousel_6.jpg" alt="" onclick="pic(5)">
+                    <img src="pic/detail/Carousel_7.jpg" alt="" onclick="pic(6)">
+                    <img src="pic/detail/Carousel_8.jpg" alt="" onclick="pic(7)">
+                    <img src="pic/detail/Carousel_9.jpg" alt="" onclick="pic(8)">
+                    <img src="pic/detail/Carousel_10.jpg" alt="" onclick="pic(9)">
+                    <img src="pic/detail/Carousel_11.jpg" alt="" onclick="pic(10)">
+                </div>
+            </div>
+        </div>
+
+        <div class="container_right">
+            <div>
+                <div class="container_title">寵物拉桿太空包</div>
+                <div class="container_price">售價 : $1690</div>
+                <form>
+                    <input class="quantity input_reduce" type=button value="-"><input class="quantity input_value" type=text name=a mount value="1"><input class="quantity input_add" type=button value="+">
+                </form>
+                <div class="buy"><button type="submit">立即購買</button></div>
+                <div class="buy"><button type="submit">添加到購物車</button></div>
+                <div class="container_item">
+                    <ul>
+                        <li>超大視野</li>
+                        <li>便攜手提</li>
+                        <li>通風透氣</li>
+                    </ul>
+                </div>
+                <div class="container_category">類別 :
+                    <span>外出用品</span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <div class="shop_detail width_css">
+        <div class="shop_detail">
+            <div class="shop_detail_describe" onclick="block(0)">商品描述
+                <span class="open">+</span><span class="close">-</span>
+            </div>
+            <div class="shop_detail_describe_block">
+                <div class="shop_detail_describe_title">【內附配件】</div>
+                <div class="shop_detail_describe_content">1.固定繩魔術貼<br>2.舒適毛坐墊毯<br>3.五個滾輪加粗拉桿<br>4.防掙脫安全鎖</div>
+                <div class="shop_detail_describe_title">【收納方式】</div>
+                <div class="shop_detail_describe_content">1.將包包跟拉鍊按照順序拆卸<br>2.透明罩上拉桿固定夾往上推<br>3.收納完成不占空間</div>
+            </div>
+
+        </div>
+        <div class="shop_detail">
+            <div class="shop_detail_describe" onclick="block(1)">尺寸 / 規格
+                <span class="open">+</span><span class="close">-</span></div>
+            <div class="shop_detail_describe_block">
+                <div class="shop_detail_describe_title">【材質】</div>
+                <div class="shop_detail_describe_content">PET、滌綸、EVA</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="related width_css">
+        <div class="related_txt">相關商品</div>
+        <div class="related_pic">
+            <div>
+                <div class="img_black">
+                    <h3 class="img_black_h3">
+                        <p>大容量雙肩拉桿包</p>
+                        <p>$1000</p>
+                    </h3>
+                </div>
+                <div class="related_pic_white"><img class="related_pic_white_img" src="pic/detail/related1.jpg" alt=""></div>
+            </div>
+            <div>
+                <div class="img_black">
+                    <h3 class="img_black_h3">
+                        <p>透明泡泡箱</p>
+                        <p>$1500</p>
+                    </h3>
+                </div>
+                <div class="related_pic_white"><img class="related_pic_white_img" src="pic/detail/related2.jpg" alt=""></div>
+            </div>
+            <div>
+                <div class="img_black">
+                    <h3 class="img_black_h3">
+                        <p>摺疊寵物推車</p>
+                        <p>$2500</p>
+                    </h3>
+                </div>
+                <div class="related_pic_white"><img class="related_pic_white_img" src="pic/detail/related3.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="Footer">
+        <div class="Footer_Block width_css">
+            <div class="Footer_Block_Img"><img src="pic/logo.png" alt=""></div>
+            <div class="Footer_Block_Item">
+                <span>聯絡我們</span>
+                <p>連絡電話:(02)1234-5678</p>
+                <p>營業時間:週一 ~ 週五 11:00-19:00</p>
+            </div>
+            <div class="Footer_Group">
+                <img src="pic/facebook.png" alt="fb">
+                <img src="pic/instagram.png" alt="ig">
+                <img src="pic/line.png" alt="line">
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="ShoppingCart.js"></script>
+    <script src="detail.js"></script>
+</body>
+
+</html>

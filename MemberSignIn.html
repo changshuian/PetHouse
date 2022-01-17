@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member sign in</title>
+    <link rel="stylesheet" href="Reset.css">
+    <link rel="stylesheet" href="MemberSignIn.css">
+    <script src="https://kit.fontawesome.com/90d222f595.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="Head">
+        <div class="Head_diV_box_fixed"></div>
+        <div class="Head_diV_box">
+            <div class="Head_div width_css">
+                <div class="Head_Logo">
+                    <img class="LogoStyle" src="pic/logo.png" alt="logo">
+                </div>
+                <div class="Head_Nav">
+                    <a href="#" class="ham-icon">
+                        <i class="fas fa-bars "></i>
+                    </a>
+                    <nav class="dropdown">
+                        <a href="Index.html">首頁<p class="dropdown_border"></p></a>
+                        <a href="commodity.html">商品<p class="dropdown_border"></p></a>
+                        <a href="PetGrooming.html">寵物美容<p class="dropdown_border"></p></a>
+                        <a href="Shop.html">實體店面<p class="dropdown_border"></p></a>
+                    </nav>
+                </div>
+                <div class="Head_User">
+                    <div><a href="MemberSignIn.html"><i class="fas fa-user-circle mr4"></i><span>會員登入</span></a></div>
+                    <div class="ShoppingStyle">
+                        <a href="ShoppingCart.html"><img src="pic/icon-shopping-car.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="min-height: calc(100% - 141px);">
+        <div class="d-flex contain">
+            <div class="box">
+                <h3>登錄</h3>
+                <hr>
+                <form action="">
+                    <div class="box_contain">
+                        <h5>用戶名或電子郵件地址*</h5>
+                        <input type="email" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+                    </div>
+                    <div class="box_contain">
+                        <h5>密碼*</h5>
+                        <input type="password" required="required" pattern="^(?=.*[a-zA-Z])(?=.*[0-9]).{6,}$" oninput="setCustomValidity('');" oninvalid="setCustomValidity('請輸入正確的密碼格式:含英數至少六個字元');" />
+                    </div>
+                    <div class="box_contain box_submit">
+                        <input type="submit" class="btn" value="登錄"></input>
+                        <span><input type="checkbox" name="" id=""> 記得我</span>
+                        <a href="">忘記密碼？</a>
+                    </div>
+                </form>
+            </div>
+            <div class="box">
+                <h3>登記</h3>
+                <hr>
+                <form action="">
+                    <div class="box_contain">
+                        <h5>用戶名或電子郵件地址*</h5>
+                        <input type="email" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+                    </div>
+                    <div class="box_contain">
+                        <h5>密碼*</h5>
+                        <input type="password" required="required" pattern="^(?=.*[a-zA-Z])(?=.*[0-9]).{6,}$" oninput="setCustomValidity('');" oninvalid="setCustomValidity('請輸入正確的密碼格式:含英數至少六個字元');" />
+                    </div>
+                    <div class="box_contain box_submit">
+                        <input type="submit" class="btn" value="登記"></input>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="Footer">
+        <div class="Footer_Block width_css">
+            <div class="Footer_Block_Img"><img src="pic/logo.png" alt=""></div>
+            <div class="Footer_Block_Item">
+                <span>聯絡我們</span>
+                <p>連絡電話:(02)1234-5678</p>
+                <p>營業時間:週一 ~ 週五 11:00-19:00</p>
+            </div>
+            <div class="Footer_Group">
+                <img src="pic/facebook.png" alt="fb">
+                <img src="pic/instagram.png" alt="ig">
+                <img src="pic/line.png" alt="line">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
