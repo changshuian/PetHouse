@@ -120,7 +120,6 @@ a {
 .PetGrooming_Right_Top_Title {
     font-size: 32px;
     color: #642A02;
-    font-weight: bold;
 }
 
 .PetGrooming_Right_Top_Content {
@@ -415,6 +414,7 @@ a.ham-icon {
     padding: 30px;
     margin: auto;
     cursor: pointer;
+    font-family: 'jf-openhuninn-1.1', sans-serif;
 }
 
 .PetGrooming_input {

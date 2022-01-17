@@ -132,6 +132,7 @@ a {
     font-size: 20px;
     color: #642A02;
     margin-top: 15px;
+    font-family: 'jf-openhuninn-1.1', sans-serif;
 }
 
 .Banner_txt {
@@ -229,7 +230,6 @@ a {
     color: #642A02;
     font-style: italic;
     font-size: 30px;
-    font-weight: bold;
 }
 
 .commodity_price {
@@ -466,10 +466,6 @@ a.ham-icon {
     }
     .commodity_boxlist {
         padding: 0px 20px 20px 20px;
-    }
-    .width_css {
-        padding-left: 10px;
-        padding-right: 10px;
     }
 }
 

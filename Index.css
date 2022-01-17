@@ -138,6 +138,7 @@ a {
     font-size: 20px;
     color: #642A02;
     cursor: pointer;
+    font-family: 'jf-openhuninn-1.1', sans-serif;
 }
 
 .block_New {
@@ -174,6 +175,7 @@ a {
     background-color: #642A02;
     color: #eeeeee;
     cursor: pointer;
+    font-family: 'jf-openhuninn-1.1', sans-serif;
 }
 
 .block_New_Right {
@@ -358,6 +360,7 @@ a {
     color: #642A02;
     margin-top: 20px;
     cursor: pointer;
+    font-family: 'jf-openhuninn-1.1', sans-serif;
 }
 
 .Cut_img {
