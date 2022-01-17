@@ -139,6 +139,10 @@ a {
     border-radius: 10px;
 }
 
+.PetGrooming_Left_pic img {
+    padding: 10px;
+}
+
 .PetGrooming_Right {
     width: 50%;
 }
@@ -151,7 +155,6 @@ a {
 
 .Footer {
     background-color: #eedbcd;
-    margin-top: 100px;
 }
 
 .Footer_Block {
@@ -183,6 +186,12 @@ a {
     width: 30px;
     height: 30px;
     margin-left: 10px;
+}
+
+.Footer_txt {
+    color: #642A02;
+    display: flex;
+    justify-content: center;
 }
 
 .item img {
@@ -248,10 +257,6 @@ a.ham-icon {
     display: none;
 }
 
-.btnBox_Right .btn {
-    display: none;
-}
-
 .btnBox .btn {
     display: block;
 }
@@ -270,12 +275,9 @@ a.ham-icon {
         max-width: 530px;
         margin: auto;
     }
-    .btnBox_Right .btn {
+    .btnBox .btn {
         display: block;
         margin-top: 30px;
-    }
-    .btnBox .btn {
-        display: none;
     }
 }
 

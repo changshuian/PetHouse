@@ -1,6 +1,17 @@
+var state = true;
 $('.ham-icon').click(function(e) {
     e.preventDefault();
-    $('.dropdown').toggleClass('active')
+    $('.dropdown').toggleClass('active');
+
+    if (state == true) {
+        $(this).find('i').removeClass('fas fa-bars');
+        $(this).find('i').addClass('far fa-window-close');
+        state = false;
+    } else {
+        $(this).find('i').addClass('fas fa-bars');
+        $(this).find('i').removeClass('far fa-window-close');
+        state = true;
+    }
 })
 
 const Head_diV_box_fixed = document.querySelector(".Head_diV_box_fixed");

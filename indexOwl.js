@@ -37,8 +37,8 @@ $($(".owl-carousel")[1]).owlCarousel({
 $($(".owl-carousel")[2]).owlCarousel({
     loop: true, // 循環播放
     margin: 10, // 外距 10px
-    dots: false,
-    nav: true, // 顯示點點
+    dots: true,
+    nav: false, // 顯示點點
     responsive: {
         0: {
             items: 3 // 螢幕大小為 0~600 顯示 1 個項目

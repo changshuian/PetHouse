@@ -329,7 +329,7 @@ a {
     background: url("pic/shampoo_1.png") no-repeat center/contain;
     min-height: 300px;
     max-width: 100%;
-    width: 485px;
+    width: 480px;
 }
 
 .Cut_text {
@@ -367,7 +367,7 @@ a {
     max-width: 50%;
     position: absolute;
     left: 1000px;
-    top: 150px
+    top: 135px;
 }
 
 .Cut_img img {
